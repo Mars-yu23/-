@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <script>
+      var arr = [
+          {    id:"0",
+              title:"手机",
+              classify:"天机系列 Blade系列 远航系列",
+              childs:[{
+                   images:"../images/first1.jpg",
+                   title:"天机系列",
+                   url:""
+              }, 
+
+              {
+                   images:"../images/first2.png",
+                   title:"Blade系列",
+                   url:""
+               },
+               {
+                   images:"../images/first3.png",
+                   title:"远航系列",
+                   url:""
+               },
+               {
+                   images:"../images/first4.jpg",
+                   title:"其他手机",
+                   url:""
+               }
+         
+              ]
+              
+          },
+
+          {     id:"1",
+              title:"智能终端",
+              classify:"便携投影 智能穿戴 网络盒子",
+              childs:[
+                  {
+                    images:"../images/second1.jpg",
+                    title:"便携投影",
+                    url:""
+                  },
+                  {
+                    images:"../images/second2.jpg",
+                    title:"智能穿戴",
+                    url:""
+                  },
+                  {
+                    images:"../images/second3.jpg",
+                    title:"网络盒子",
+                    url:""
+                  },
+                  {
+                    images:"../images/second4.jpg",
+                    title:"智能家居",
+                    url:""
+                  }
+              ]
+          },
+          {     id:"2",
+              title:"耳机 / 音箱",
+              classify:"蓝牙耳机 蓝牙音箱 有线耳机",
+              childs:[
+                  {
+                    images:"../images/three1.jpg",
+                    title:"蓝牙耳机",
+                    url:""
+                  },
+                  {
+                    images:"../images/three2.jpg",
+                    title:"蓝牙音箱",
+                    url:""
+                  },
+                  {
+                    images:"../images/three3.jpg",
+                    title:"有线耳机",
+                    url:""
+                  }
+              ]
+
+          },
+          {     id:"3",
+              title:"数据线 / 电源适配器",
+              classify:"充电器 数据线 车载充电",
+              childs:[
+                  {
+                    images:"../images/four1.jpg",
+                    title:"充电器",
+                    url:""
+                  },
+                  {
+                    images:"../images/four2.jpg",
+                    title:"数据线",
+                    url:""
+                  },
+                  {
+                    images:"../images/four3.jpg",
+                    title:"车载充电",
+                    url:""
+                  },
+              ]
+
+          },
+          {     id:"4",
+              title:"保护套 / 后盖 / 贴膜",
+              classify:"皮套 贴膜 保护袋",
+              childs:[
+                  {
+                    images:"../images/five1.jpg",
+                    title:"皮套",
+                    url:""  
+
+              },
+              {     
+                    images:"../images/five2.jpg",
+                    title:"贴膜",
+                    url:""  
+
+              },
+              {    
+                    images:"../images/five3.jpg",
+                    title:"保护袋",
+                    url:""  
+
+              },
+              {     
+                    images:"../images/five4.jpg",
+                    title:"Axon M专用配件 ",
+                    url:""  
+
+              }
+
+            
+              ]
+          },
+          {    id:"5",
+              title:"移动电源 / 存储卡",
+              classify:"存储卡 读卡器 移动电源",
+              childs:[
+                  {
+                    images:"../images/six1.jpg",
+                    title:"存储卡",
+                    url:""
+                  },
+                  {
+                    images:"../images/six2.jpg",
+                    title:"读卡器",
+                    url:""
+                  },
+                  {
+                    images:"../images/six3.jpg",
+                    title:"移动电源",
+                    url:""
+                  }
+
+              ]
+          },
+          {   id:"6",
+              title:"服务及周边",
+              classify:"车载支架 自拍杆",
+              childs:[
+                  {
+                    images:"../images/seven1.jpg",
+                    title:"车载支架",
+                    url:""
+                  },
+                  {
+                    images:"../images/seven2.jpg",
+                    title:"自拍杆",
+                    url:""
+                  }
+
+              ]
+          }
+
+
+      ]
+      var str = JSON.stringify(arr);
+      document.write(str);
+    </script>
+    
+</body>
+</html>

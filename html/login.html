@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/login.min.css">
+    <script src="../js/require.js" async="true" defer data-main="../js/loginmain.js" ></script>
+</head>
+<body>
+    <header>
+        <ul class="header_ul">
+            <li><a href="">手机版</a></li>
+            <li><a href="">企业采购</a></li>
+            <li><a href="">商城公告</a></li>
+            <li><a href="">意见反馈</a></li>
+        </ul>
+        <ol class="header_ol">
+            <li><a href="">登录</a></li>
+            <li><a href="">注册</a></li>
+            <a id="shopcar" href=""><dt><img src="../images/shopcart.png" alt=""></dt><dd>购物车</dd></a>
+        </ol>
+
+    </header>
+    <div class="main-container">
+        <div class="passport-login-container clearfix">
+            <div class="ad-block">
+                <ul>
+                    <li>
+                        <img id="loginImg" src="../images/login.png" alt="">
+                    </li>
+                </ul>
+        
+            </div>
+            <div class="panel panel-default login-panel">
+                <div class="panel-body">
+                    <ul class="login-type-ul">
+                        <li class="li-type"><a href="">短信登录</a></li>
+                        <li class="li-type"><a href="">账号登录</a></li>
+                        <li class="li-type"><a href="">员工登录</a></li>
+        
+                    </ul>
+                    <div class="tab-content" style="margin-top:10px;">
+                        <!-- 手机短信登录 -->
+                        <div class="tab-pane fade" id="phonesms">
+                            
+                        </div >
+                        <!--账号密码登录 -->
+                        <div class="tab-pane fade" id="phonesms">
+                            <div action="" id="member_login_form" class="form-horizontal account">
+                                     <div class="form-group" id="div_uname">
+                                         <div class="col-md-10">
+                                             <input type="text" id="uname" name="uname" placeholder="手机号 / 邮箱 / 用户名">
+        
+                                         </div>
+                                       
+        
+                                     </div>
+                                     <div class="form-group" id="div_password">
+                                        <div class="col-md-10" style="margin-bottom: 12px">
+                                            <input type="text" id="password" name="password" placeholder="密码">
+        
+                                        </div>
+                                      
+        
+                                    </div>
+                                    <div class="form-group" id="div_vcode" style="margin-bottom: 12px">
+                                        <div class="col-md-10">
+                                            <input type="text" id="account_vcode" name="account_vcode" placeholder="图形验证码">
+                                            <div class="col-md-5" style="cursor: pointer;text-align: center;" id="account_vcode_image">
+                                                  <!-- <img src="" alt=""> -->
+                                            </div>
+        
+                                        </div>
+                                      
+        
+                                    </div>
+                                    <div class="form-group" >
+                                        <div class="col-md-10" style="margin-top: 10px;margin-bottom: 15px;">
+                                           <button class="btn btn-danger login-btn" type="submit" data-loading-text="正在登录..."><a href="index.html">登录</a></button>
+        
+                                        </div>
+                                      
+        
+                                    </div>
+        
+        
+        
+                            </form>
+                            
+                        </div >
+        
+                        <div class="tab-pane fade" id="phonesms">
+                            
+                        </div >
+        
+                    </div>
+        
+                </div>
+                <div class="panel-body2">
+                    <form action="form-horizontal" id="member_login_form">
+                        <div class="form-group">
+                            <div class="col-md-10 text-center">
+                                <a class="register-now" href="register.html">立即注册</a>
+                                <a   href="">忘记密码?</a>
+                            </div>
+        
+        
+                        </div>
+        
+                <div class="login-footer">
+                            <div class="line">
+                                <img src="../images/fgx.png" alt="">
+                                <span class="other-login">三方账号登录</span>
+                                <img src="../images/fgx.png" alt="">
+                               
+                            </div>
+                            <ul class="list-inline oauth-login-list">
+                                <li>
+                                    <a href="" class="btn btn-xs btn-default btn-wechat">
+                                        <img src="../images/qq.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-xs btn-default btn-wechat">
+                                        <img src="../images/wechat.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="btn btn-xs btn-default btn-wechat">
+                                        <img id="sinna" src="../images/weibo.png" alt="">
+                                    </a>
+                                </li>
+        
+                            </ul>
+        
+                        </div> 
+        
+                    </form>
+        
+                </div>
+        
+            </div>
+        
+        </div>
+
+        <div class="popover fade right in" role="tooltip" id="popover241506" style="top: 147.6px; left: 1009.5px; display: block;">
+            <div class="arrow" style="top: 14.7887%;">
+                <!-- <img src="../images/left-1.png" alt=""> -->
+            </div>
+            <h3 class="popover-title" style="display: none;"></h3>
+            <div class="popover-content">请输入用户名</div>
+    
+        </div>
+    </div>
+
+
+<div class="footer">
+    <div class="footer-inner">
+        <div class="footer-top">
+            <ul class="list-unstyled clearfix">
+                <li class="pull-left"><img src="../images/7.png" alt=""> <span>7天退货保障</span></li>
+                <li class="pull-left"><img src="../images/30.png" alt=""> <span>15天换货承诺</span></li>
+                <li class="pull-left"><img src="../images/mian.png" alt=""> <span>150元起全场免运费</span></li>
+                <li class="pull-left"><img src="../images/position.png" alt=""> <span>全国售后服务点</span></li>
+            </ul>
+
+
+        </div>
+      
+        <div class="footer-center">
+            <div class="footer-plus">
+                <div class="help-center">
+                    <ul class="list-unstyled clearfix">
+                        <li class="help-title"><a href="">关注我们</a></li>
+                        <li class="help-list">
+                            <ul>
+                                <li><a href=""> 中兴社区</a></li>
+                                <li><a href="">官方微信</a> </li>
+                                <li> <a href="">新浪微博</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled clearfix">
+                     <li class="help-title"><a href="">帮助中心</a></li>
+                     <li class="help-list">
+                         <ul>
+                             <li><a href=""> 支付方式</a></li>
+                             <li><a href="">购物商城</a> </li>
+                             <li> <a href="">配送指南</a></li>
+                         </ul>
+                     </li>
+                 </ul>
+                 <ul class="list-unstyled clearfix">
+                     <li class="help-title"><a href="">售后服务</a></li>
+                        <li class="help-list">
+                            <ul>
+                                <li><a href="">退换货流程</a></li>
+                                <li><a href="">售后网点</a></li>
+                                <li><a href="">退换货政策</a></li>
+                                <li><a href="">保修政策</a></li>
+                            </ul>
+                        </li>
+                 </ul>
+                 <ul class="list-unstyled clearfix">
+                     <li class="help-title"><a href="">关于商城</a></li>
+                     <li class="help-list">
+                         <ul>
+                                <li><a href="">联系我们</a></li>
+                                <li><a href="">商城简介</a></li>
+                                <li><a href="">礼品团购</a></li>
+                         </ul>
+                     </li>
+                 </ul>
+                </div>
+                <div class="call-block">
+                    <div class="tell">
+                        <div class="kefu">
+                            <img src="" alt="">
+                            <a href="" class="active-qykefu">在线客服</a><br/>
+                        </div>
+                        <div id="telephone" class="explain">电话热线: 400-880-9999转7</div><br/>
+                        <div class="explain">周一到周日 9:00 - 24:00 (全年无休)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <ul class="list-unstyled clearfix">
+                <li><a href="">中兴社区</a></li>
+                <li><a href="">中兴通讯</a></li>
+                <li><a href="">汇天地</a></li>
+                <li><a href="">中兴云服务</a></li>
+                <li><a href="">中兴手机</a></li>
+            </ul>
+             <div class="copy-right" style="text-align: center;">
+                  <a href="">服务协议</a>
+                  <a href="">隐私政策</a>
+                  <a href="">| ©2014 - 2017 深圳市中兴智谷科技有限公司版权所有，并保留所有权利</a>
+ 
+             </div>
+             <div class="copy-right" style="text-align: center;">
+                 
+ <a href="">增值电信业务经营许可证：粤B2-20160352 |</a>	<a href="">ICP备案证书号 :粤ICP备16018970号 "|"</a><a href="" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><p>粤公网安备 44030502001132号</p></a>
+            <a href="">
+                <img style="width: 26px; height:36px;" src="../images/govIcon.gif" alt="深圳市市场监督管理局企业主体身份公示" title="深圳市市场监督管理局企业主体身份公示" style="border-width:0px;border:hidden; border:none;">
+            </a>
+ </div>
+        </div>
+
+    </div>
+</div>
+
+
+     
+    
+</body>
+</html>
